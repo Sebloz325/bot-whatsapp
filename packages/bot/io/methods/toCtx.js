@@ -5,6 +5,7 @@ const { generateRef, generateRefSerialize } = require('../../utils/hash')
  * @param options {media:string, buttons:[], capture:true default false}
  * @returns
  */
+/*
 const toCtx = ({ body, from, prevRef, options = {}, index }) => {
     return {
         ref: generateRef(),
@@ -15,5 +16,5 @@ const toCtx = ({ body, from, prevRef, options = {}, index }) => {
         refSerialize: generateRefSerialize({ index, answer: body }),
     }
 }
-
+*/
 module.exports = { toCtx }
